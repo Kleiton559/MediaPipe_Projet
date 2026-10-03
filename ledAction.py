@@ -11,7 +11,7 @@ def acenderLED():
 
 def apagarLED():
     led = arduino.digital[13]
-    led.write(0)
+    led.write(0)   #Apagar LED
 
 
 
